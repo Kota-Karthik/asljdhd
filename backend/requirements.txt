@@ -1,7 +1,0 @@
-fastapi
-uvicorn
-pillow
-tweepy
-python-dotenv
-python-multipart
-itsdangerous
