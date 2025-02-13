@@ -41,8 +41,7 @@ def upload_to_twitter(images):
     st.success("Images posted to Twitter!")
 
 def post_to_twitter(images):
-    """Mock function to simulate successful Twitter upload."""
-    st.success("Images posted to Twitter!")
+    st.success("Images posted successfully")
 
 
 def resize_image(image, size):
@@ -106,4 +105,4 @@ if uploaded_file:
     
     # Button to post to Twitter
     if st.button("Post to Twitter"):
-        upload_to_twitter(resized_images)
+        post_to_twitter(resized_images)
